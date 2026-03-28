@@ -35,6 +35,13 @@ function App() {
 
 
   const addValue=()=>{
+    if(counter==20){
+      alert("Your are click more then 20");
+      return;
+
+
+    }
+
    
     setCounter(counter+1);// new value bataoo jo counter ka andhar daluuu.
 
@@ -51,6 +58,17 @@ function App() {
 
 
 const remValue=()=>{
+  if(counter==0){
+    alert("you are less then 0"
+    );
+
+    return;
+
+    
+   
+
+
+  }
     console.log("value added",Math.random());
     setCounter(counter-1);
 
