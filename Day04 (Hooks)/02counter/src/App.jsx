@@ -5,7 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-  // react gives the special methods that is called hooks form this data is updated.
+  // react gives the special methods that is called hooks from this data is updated.
   // In React, Hooks are special functions that let you use features like state, lifecycle, and more inside functional components.
   // There are various types of hooks.
   //1)useContext
