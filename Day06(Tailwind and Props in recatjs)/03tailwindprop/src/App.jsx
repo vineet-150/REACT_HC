@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <div className="flex flex-col justify-center items-center  bg-black">
-    <h1 className="bg-green-400 text-xl text-black p-4 rounded-xl">
+    <h1 className="bg-green-400 text-xl text-black p-4 rounded-xl ">
       Tailwind test
     </h1>
   <Card username="hitesh" txt="hitesh choudhary official channel "/>
