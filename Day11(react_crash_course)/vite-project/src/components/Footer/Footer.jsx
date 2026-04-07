@@ -72,7 +72,7 @@ function Footer() {
             </div>
 
             <div>
-              <h2 className='mb-6 text-sm font-semibold text-gray-900 uppercase'>Legal</h2>
+              <h2 className='mb-6 mt-5 sm:mt-0 text-sm  font-semibold text-gray-900 uppercase'>Legal</h2>
               <ul className='text-gray-500 font-medium'>
                 <li className='mb-4'>
                   <Link to="#" className='hover:underline'>Privacy Policy</Link>

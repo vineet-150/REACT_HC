@@ -2,32 +2,39 @@ import React from 'react'
 
 function About() {
   return (
-     <div className="py-16 bg-white">
-            <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-                <div className="space-y-6 md:space-y-0 md:flex lg:items-center justify-around">
-                    <div className="md:5/12 lg:w-5/12">
-                        <img className='h-80 w-100'
-                            src="https://images.pexels.com/photos/31640028/pexels-photo-31640028.jpeg"
-                            alt="image"
-                        />
-                    </div>
-                    <div className="md:7/12 lg:w-6/12">
-                        <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
-                            React development is carried out by passionate developers
-                        </h2>
-                        <p className="mt-6 text-gray-600">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
-                            accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
-                            aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
-                        </p>
-                        <p className="mt-4 text-gray-600">
-                            Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
-                            Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
-                        </p>
-                    </div>
-                </div>
-            </div>
+    <div className='py-16 bg-white'>
+      <div className='container m-auto px-6 text-gray-600 md:px-12 xl:px-12'>
+        
+        <div className='flex flex-col md:flex-row items-center gap-10'>
+          
+          {/* Image */}
+          <div className="md:w-5/12 flex justify-center">
+            <img
+              className='w-[300px] h-80 object-cover rounded-lg'
+              src="https://images.pexels.com/photos/32227390/pexels-photo-32227390.jpeg"
+              alt="image"
+            />
+          </div>
+
+          {/* Text */}
+          <div className="md:w-7/12">
+            <h2 className="text-2xl text-gray-900 font-bold md:text-4xl text-center md:text-left">
+              React development is carried out by passionate developers
+            </h2>
+
+            <p className="mt-6 text-gray-600 text-center md:text-left">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit...
+            </p>
+
+            <p className="mt-4 text-gray-600 text-center md:text-left">
+              Nobis minus voluptatibus pariatur dignissimos libero...
+            </p>
+          </div>
+
         </div>
+
+      </div>
+    </div>
   )
 }
 
